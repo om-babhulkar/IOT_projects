@@ -1,0 +1,6 @@
+This Project demonstrates a Hand Gestures Controlled Car that uses Computer Vision that is Mediapipe to Recognize hand gestures and WIFI Communication to send command to ESP32 which drives the car.
+Concept!!!
+The Computers Webcam captures the live video
+The Mediapipe library using hand landmark detects the hand Gestures
+The python script sends to the ESP32 via WIFI
+The ESP32 as as the AP which recievs the command and drives BO MOTORS using L298N Motor Driver
